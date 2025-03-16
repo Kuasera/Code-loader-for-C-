@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{98833E59-A03F-4467-A9D0-381A15908398}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MainApp</RootNamespace>
+    <AssemblyName>GetPlayer</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>net45</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>GetPlayer.ico</ApplicationIcon>
+    <StartupObject>MainApp.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GetPool.cs" />
+    <Compile Include="GetStarted.cs" />
+    <Compile Include="Mass.cs" />
+    <Compile Include="PoolStrike.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+  </ItemGroup>
+</Project>
